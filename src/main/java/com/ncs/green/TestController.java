@@ -9,7 +9,7 @@ public class TestController {
 
 	@RequestMapping
 	public ModelAndView gitTest(ModelAndView mv) {
-		String test = "1번째 버전";
+		String test = "2번째 버전";
 		mv.addObject("test", test);
 		mv.setViewName("test/test");
 		return mv;
