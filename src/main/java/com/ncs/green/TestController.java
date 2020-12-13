@@ -9,7 +9,7 @@ public class TestController {
 
 	@RequestMapping
 	public ModelAndView gitTest(ModelAndView mv) {
-		String test = "2¹øÂ° ¹öÀü";
+		String test = "3ë²ˆì§¸ ì»¤ë°‹";
 		mv.addObject("test", test);
 		mv.setViewName("test/test");
 		return mv;
